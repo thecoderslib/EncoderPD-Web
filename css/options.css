@@ -1,0 +1,133 @@
+/*==========================
+Main Body Style Extensions
+==========================*/
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	color: #333;
+	background: #fff;
+	box-shadow: border-box;
+}
+
+
+
+/*=============================
+Main Settings Style Extensions
+=============================*/
+
+#settings {
+	width: auto;
+	height: 475px;
+	background: #fff;
+}
+
+#settings .back-text {
+	padding: 5px 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#settings .title-settings {
+	margin: 8px 0 0;
+	padding: 3px 15px;
+	font-size: 28px;
+	font-weight: 700;
+	cursor: default;
+}
+
+#settings .download-app,
+#settings .verify-update {
+	margin: 5px 0 25px;
+}
+
+#settings .edit-apperance,
+#settings .edit-language,
+#settings .verify-update,
+#settings .help-btn,
+#settings .faq-btn {
+	margin-top: -1px;
+}
+
+#settings .download-app,
+#settings .edit-apperance,
+#settings .edit-language,
+#settings .verify-update,
+#settings .help-btn,
+#settings .faq-btn {
+	height: 35px;
+	background: #f4f4f4;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-size: 18px;
+	cursor: default;
+}
+
+#settings .download-app img,
+#settings .edit-apperance img,
+#settings .edit-language img,
+#settings .verify-update img,
+#settings .help-btn img,
+#settings .faq-btn img {
+	width: 25px;
+	position: relative;
+	top: 5px;
+	left: 15px;
+}
+
+#settings .download-app p,
+#settings .edit-apperance p,
+#settings .edit-language p,
+#settings .verify-update p,
+#settings .help-btn p,
+#settings .faq-btn p  {
+	margin-top: -25px;
+	margin-left: 45px;
+}
+
+#settings .footer-settings {
+	width: auto;
+	padding: 6px;
+	font-size: 13px;
+	background: #e4e4e4;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+/*=============================
+Main Scrolbox Style Extensions
+=============================*/
+
+#form-db {
+	display: block;
+}
+
+#form-dn {
+	display: none;
+}
+
+* ::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: #fff;
+}
+
+* ::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+	background: #298cda;
+}

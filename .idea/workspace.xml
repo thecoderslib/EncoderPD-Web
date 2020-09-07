@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="039cc979-b758-484d-9918-3edb4e75df7b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gj6v2q38mhxjhb980BKiu3GLHc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProDevel\extension\EncoderPD\libs" />
+      <recent name="D:\ProDevel\extension\EncoderPD\libs\icons" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="039cc979-b758-484d-9918-3edb4e75df7b" name="Default Changelist" comment="" />
+      <created>1598615893445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598615893445</updated>
+      <workItem from="1598615899832" duration="39378000" />
+      <workItem from="1598709574248" duration="9542000" />
+      <workItem from="1599412993639" duration="11050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="61" key="#Inspections" timestamp="1598620821958">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="309" y="61" key="#Inspections/0.0.1366.768@0.0.1366.768" timestamp="1598620821958" />
+    <state x="413" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599414326395">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1599414326395" />
+    <state x="398" y="205" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1598617702363">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="398" y="205" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1366.768@0.0.1366.768" timestamp="1598617702363" />
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1599240674105">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1599240674105" />
+    <state x="184" y="15" key="SettingsEditor" timestamp="1598649604003">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="15" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1598649604003" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599420704951">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1599420704951" />
+    <state x="407" y="113" width="1008" height="743" key="dock-window-1" timestamp="1598630644318">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="407" y="113" width="1008" height="743" key="dock-window-1/0.0.1366.768@0.0.1366.768" timestamp="1598630644318" />
+    <state x="339" y="167" key="run.anything.popup" timestamp="1599455460105">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="167" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1599455460105" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598648044247">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1598648044247" />
+  </component>
+</project>

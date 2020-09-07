@@ -1,0 +1,1 @@
+function injectScript(e){try{const t=document.head||document.documentElement,n=document.createElement("script");n.setAttribute("async","false"),n.textContent=e,t.insertBefore(n,t.children[0]),t.removeChild(n)}catch(e){console.error("encoderpd provider injection failed.",e)}}

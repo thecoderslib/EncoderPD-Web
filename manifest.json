@@ -1,0 +1,68 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "manifest_version":2,
+
+  "name":"EncoderPD (Web)",
+  "short_name": "EncPD",
+  "description":"EncoderPD - Универсалный шифровшик и расшифровшик",
+  "version": "1.4",
+  "version_name": "1.4 Beta",
+  
+  "minimum_chrome_version": "65.0",
+  "author": "UzProDevel LLC",
+  "homepage_url": "https://prodevel.uz/",
+
+  "web_accessible_resources": [
+    "icon_48x48.png"
+  ],
+
+  "icons": {
+    "16": "icons/icon_16x16.png",
+    "48": "icons/icon_48x48.png",
+    "128": "icons/icon_128x128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon_48x48.png",
+    "default_popup": "popup.html"
+  },
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "MacCtrl+Shift+E"
+      },
+      "description": "Opens popup.html"
+    }
+  },
+
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  
+  "optional_permissions": [
+    "topSites",
+    "http://api.prodevel.uz/*"
+  ],
+
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+
+  "content_scripts":[
+    {
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": ["script.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

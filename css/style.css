@@ -1,0 +1,502 @@
+/*==========================
+Main Body Style Extensions
+==========================*/
+@import url("pdkroot.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	height: auto;
+	color: var(--pdk-color);
+	background: var(--pdk-background);
+	box-sizing: border-box;
+}
+
+[display="none"] {
+	display: none;
+}
+
+.default {
+	left: 320px;
+	visibility: hidden;
+}
+
+.active {
+	left: 0;
+	visibility: visible;
+}
+
+.content {
+	margin-top: 40px;
+}
+
+.us-none {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+/*=============================
+Main Error Style Extensions
+=============================*/
+
+#dne-status {
+	display: none;
+}
+
+#dbe-status {
+	display: block;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+
+
+
+/*=============================
+Main Header Style Extensions
+=============================*/
+
+#header-top-form {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#header-top-form .top-form {
+	width: 100%;
+	height: 30px;
+	color: var(--pdk-header-color);
+	background: var(--pdk-header-background);
+	border: none;
+	border-bottom: 1px solid var(--pdk-header-border);
+	overflow: hidden;
+	position: relative;
+}
+
+#header-top-form .top-form .title-text {
+	padding: 1px 8px;
+	font-size: 19px;
+}
+
+#header-top-form .top-form .btn:hover {
+	background: var(--pdk-header-btn-hover-background);
+	fill: var(--pdk-header-btn-hover-color);
+	cursor: pointer;
+}
+
+#header-top-form .top-form .btn {
+	background: var(--pdk-header-background);
+	fill: var(--pdk-header-color);
+	text-align: center;
+	border: none;
+	padding: 4px 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
+
+/*=============================
+Main Navbar Style Extensions
+=============================*/
+
+#logo {
+	margin: 50px 70px 20px;
+}
+
+#logo img {
+	width: 170px;
+	height: auto;
+}
+
+#navbar {
+	margin: 20px 25px;
+	padding: 0;
+	height: 210px;
+	font-size: 15px;
+}
+
+#navbar .btn:hover {
+	background-color: var(--pdk-btn-hover-background);
+}
+
+#navbar .btn {
+	width: 98%;
+	padding: 5px 0;
+	margin: 4px 0;
+	text-align: center;
+	background: var(--pdk-btn-background);
+	border: 1px solid var(--pdk-btn-border);
+	cursor: pointer;
+}
+
+#navbar .d-ib {
+	width: 48%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+
+
+/*=============================
+Main Settings Style Extensions
+=============================*/
+
+#settings,
+#codecrypt,
+#apperance,
+#language {
+	margin: 0;
+	padding: 0;
+	width: 320px;
+	height: 100%;
+	background: var(--pdk-background);
+	box-shadow: 0 0 10px 0 var(--pdk-box-shadow);
+	transition: var(--pdk-animation-time);
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+
+#codecrypt .title {
+	margin: 5px 0 0;
+	padding: 2px 10px;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: default;
+}
+
+#codecrypt .encrypt-input p {
+	margin: 8px 10px;
+	font-size: 16px;
+}
+
+#codecrypt select {
+	width: 90px;
+	padding: 2px 5px;
+	background-color: var(--pdk-input-background);
+	color: var(--pdk-input-color);
+	border: 1px solid var(--pdk-input-border);
+	transition: var(--pdk-animation-time);
+	border-radius: 5px;
+	outline: none;
+}
+
+#codecrypt #codecrypt-text-input {
+	width: 96%;
+	height: 300px;
+	padding: 2px 5px;
+	background-color: var(--pdk-input-background);
+	color: var(--pdk-input-color);
+	border: 1px solid var(--pdk-input-border);
+	transition: var(--pdk-animation-time);
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+}
+
+#codecrypt #encryptBtn:hover,
+#codecrypt #descryptBtn:hover {
+	background-color: var(--pdk-submit-hover-background);
+}
+
+#codecrypt #encryptBtn,
+#codecrypt #descryptBtn {
+	width: 100%;
+	padding: 8px 0;
+	background-color: var(--pdk-submit-background);
+	color: var(--pdk-submit-color);
+	border: none;
+	transition: var(--pdk-animation-time);
+	border-radius: 5px;
+	resize: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#codecrypt select:focus,
+#codecrypt #codecrypt-text-input:focus {
+	box-shadow: 0 0 10px 0 var(--pdk-input-box-shadow);
+}
+
+#settings .icon-code-stroce {
+	fill:none;
+	stroke:var(--pdk-stroke);
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	stroke-width:32px;
+}
+
+/*.back-text:hover {
+	text-decoration: underline;
+}*/
+
+#settings .back-text,
+#codecrypt .back-text,
+#apperance .back-text,
+#language .back-text {
+	width: 60px;
+	padding: 5px 8px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#settings .title-settings {
+	margin: 8px 0 0;
+	padding: 3px 15px;
+	font-size: 28px;
+	font-weight: 700;
+	cursor: default;
+}
+
+#settings .btn.edit-apperance {
+	border-top: 1px solid var(--pdk-btn-border);
+}
+
+#settings .btn {
+	width: 100%;
+	height: 32px;
+	background: var(--pdk-btn-background);
+	border-bottom: 1px solid var(--pdk-btn-border);
+	color: var(--pdk-color);
+	fill: var(--pdk-fill);
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#settings .btn:hover {
+	background-color: var(--pdk-btn-hover-background);
+}
+
+#settings .btn p {
+	display: inline-block;
+	position: relative;
+	top: -11px;
+	left: -10px;
+}
+
+#settings .enc-feedback {
+	border-top: 1px solid var(--pdk-btn-border);
+	height: 60px;
+	margin-top: 15px;
+}
+
+
+#settings .icon-apperance {
+	padding: 5px 15px;
+	fill: var(--pkd-btn-icon);
+}
+
+#settings .footer-settings {
+	width: 100%;
+	padding: 6px;
+	font-size: 13px;
+	border-top: 1px solid var(--pdk-btn-border);
+	background: var(--pdk-btn-background);
+	user-select: none;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+/*============================
+PDK Window Activation Styled
+============================*/
+.window.active,
+.window-content.window-active{
+	visibility: visible;
+	opacity: 1;
+}
+
+.window-content.window-active {
+	top: 30px;
+
+}
+
+.window {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background: var(--pdk-alert-window);
+	color: var(--pdk-color);
+	overflow: hidden;
+	visibility: hidden;
+	transition: var(--pdk-window-animation-time);
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.window-content {
+	width: 90%;
+	background-color: var(--pdk-background);
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	visibility: hidden;
+	opacity: 0;
+	transition: var(--pdk-window-animation-time);
+	position: absolute;
+	top: 20px;
+}
+
+.window-header {
+	display: block;
+	padding: 8px 15px;
+	border-bottom: 1px solid var(--pdk-border);
+}
+
+.window-header .title {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.window-header .close {
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -2px;
+	float: right;
+}
+
+.error-content .content-body .app-info {
+	margin: 15px 15px;
+}
+
+/* The container */
+#apperance {
+	text-align: center;
+}
+
+#apperance .title-apperance,
+#language .edit-language {
+	margin: 35px 0 0;
+	padding: 3px 15px;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: left;
+	cursor: default;
+}
+
+.apperance-btn {
+	display: inline-block;
+	padding: 8px 15px;
+	width: 38%;
+	text-align: left;
+	overflow: hidden;
+	background-color: var(--pdk-btn-background);
+	border: 1px solid var(--pdk-btn-border);
+}
+
+.container {
+	width: 100%;
+	display: block;
+	position: relative;
+	padding-top: -5px;
+	padding-left: 25px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	border: 2px solid #ccc;
+	background: transparent;
+	border-radius: 50%;
+}
+
+.container:hover input ~ .checkmark {
+	border-color: #1973bc;
+}
+
+.container input:checked ~ .checkmark {
+	background-color: transparent;
+	border-color: #2196F3;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container .checkmark:after {
+	top: 3px;
+	left: 3px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #2196F3;
+}
+
+#language select {
+	width: 90px;
+	padding: 2px 5px;
+	background-color: var(--pdk-input-background);
+	color: var(--pdk-input-color);
+	border: 1px solid var(--pdk-input-border);
+	transition: var(--pdk-animation-time);
+	border-radius: 5px;
+	outline: none;
+}
+
+/*=============================
+Main Scrolbox Style Extensions
+=============================*/
+
+#form-db {
+	display: block;
+}
+
+#form-dn {
+	display: none;
+}
+
+* ::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background: var(--pdk-scrollbar);
+}
+
+* ::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+	background: var(--pdk-scrollbar-thumb);
+}
+
+* ::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+	background: var(--pdk-scrollbar-hover-thumb);
+}
